@@ -81,21 +81,6 @@ Before grad school, I completed my undergrad in Computer Science at BMS College 
 Engineered a cloud-native, end-to-end shift-scheduling platform for high-traffic CU Boulder operations—bookstores, dining halls, and markets—using AWS EC2, CloudFormation, RDS, S3, and DynamoDB, with Flask APIs and Airflow orchestration.  
 Automated scheduling workflows via AWS Lambda, SQS, SES, and CloudWatch event rules, delivering real-time notifications and error-free shift allocations.
 
-<p align="center">
-  <!-- core AWS services -->
-  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"            height="70" alt="AWS"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_awslambda/amazon_awslambda-icon.svg" height="70" alt="Lambda"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_ec2/amazon_ec2-icon.svg"            height="70" alt="EC2"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_s3/amazon_s3-icon.svg"              height="70" alt="S3"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_rds/amazon_rds-icon.svg"            height="70" alt="RDS"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_dynamodb/amazon_dynamodb-icon.svg"  height="70" alt="DynamoDB"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_sqs/amazon_sqs-icon.svg"            height="70" alt="SQS"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_ses/amazon_ses-icon.svg"            height="70" alt="SES"/>
-  <img src="https://www.vectorlogo.zone/logos/amazon_cloudwatch/amazon_cloudwatch-icon.svg" height="70" alt="CloudWatch"/>
-  <!-- app / workflow -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg"          height="70" alt="Flask"/>
-  <img src="https://raw.githubusercontent.com/apache/airflow/master/docs/apache-airflow/img/airflow_logo.png" height="70" alt="Airflow"/>
-</p>
 
 **Architecture:**  
 ![Shift Scheduler Architecture](https://github.com/Arnav-Purushotam-CUBoulder/CUBoulder-Shift-Scheduler/blob/main/02_Documentation/Architecture.png)
@@ -110,20 +95,7 @@ Built a microservices-based e-commerce platform tailored to students, with separ
 Enabled event-driven ordering with Kafka and Schema Registry, resilience with Resilience4j and Micrometer, and secured the app using Keycloak SSO.  
 Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zipkin; containerized via Docker Compose and later migrated to Kubernetes (Kind), with CI using Testcontainers.
 
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"                height="70" alt="Spring Boot"/>
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg"                  height="70" alt="Angular"/>
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"          height="70" alt="Tailwind CSS"/>
-  <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"        height="70" alt="Kafka"/>
-  <img src="https://www.vectorlogo.zone/logos/keycloak/keycloak-icon.svg"                height="70" alt="Keycloak"/>
-  <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg"                    height="70" alt="Docker"/>
-  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"            height="70" alt="Kubernetes"/>
-  <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg"        height="70" alt="Prometheus"/>
-  <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg"                  height="70" alt="Grafana"/>
-  <img src="https://www.vectorlogo.zone/logos/zipkin/zipkin-icon.svg"                    height="70" alt="Zipkin"/>
-  <!-- Resilience4j, Micrometer, Loki, Tempo & Testcontainers don’t have stable public SVGs;
-       consider adding local copies in /assets if you need them rendered at this size. -->
-</p>
+
 
 
 **Architecture:**  
@@ -138,18 +110,6 @@ Designed and deployed a NestJS-based microservices application on Google Cloud, 
 Containerized and orchestrated on GKE using Helm charts, with a custom CI/CD pipeline built using GitHub Actions, Google Cloud Build, Cloud Deploy, Artifact Registry, and Cloud IAM.  
 Achieved 99.9% uptime, 3× improved scalability, and 60% faster deployments.
 
-<p align="center">
-  <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg"                    height="70" alt="NestJS"/>
-  <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg"                    height="70" alt="Docker"/>
-  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"        height="70" alt="Google Cloud"/>
-  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"            height="70" alt="GKE"/>
-  <img src="https://www.vectorlogo.zone/logos/helmsh/helmsh-icon.svg"                    height="70" alt="Helm"/>
-  <img src="https://www.vectorlogo.zone/logos/stripe/stripe-icon.svg"                    height="70" alt="Stripe"/>
-  <img src="https://www.vectorlogo.zone/logos/githubactions/githubactions-icon.svg"      height="70" alt="GitHub Actions"/>
-  <img src="https://www.vectorlogo.zone/logos/googlecloudbuild/googlecloudbuild-icon.svg" height="70" alt="Cloud Build"/>
-  <img src="https://www.vectorlogo.zone/logos/googleclouddeploy/googleclouddeploy-icon.svg" height="70" alt="Cloud Deploy"/>
-  <img src="https://www.vectorlogo.zone/logos/googleartifacts/googleartifacts-icon.svg"  height="70" alt="Artifact Registry"/>
-</p>
 
 
 **Architecture:**
