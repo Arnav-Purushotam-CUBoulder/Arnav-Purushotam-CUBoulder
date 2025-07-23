@@ -22,8 +22,9 @@
 ---
 
 ## 🚀 Snapshot
-Distributed-systems grad student (CU Boulder, GPA 4.0) who loves squeezing latency out of data paths.  
-I’ve shipped Kafka-powered wildlife pipelines, AWS-scale SaaS back-ends, and Keycloak-secured micro-frontends—always with observability and CI/CD baked in.
+As a CU Boulder CS graduate student (GPA 4.0), I've focused on systems that handle real-world scale. At the BioFrontiers Institute, I worked with a team to enhance the BioBit platform, a secure microservices-based research hub used by 250+ scientists. I contributed to distributed rate-limiting using Redis and token buckets, event-driven processing with Kafka and RabbitMQ, and real-time task alerts via dashboards and Slack. We prioritized observability, scalability, and security through strong testing, CI/CD, and Kubernetes-based deployment.
+
+Before grad school, I completed my undergrad in Computer Science at BMS College of Engineering, Bengaluru (GPA 9.3/10), where I joined a startup called Harry AI as part of a 4-person backend team. We built and scaled a generative AI content platform serving over 5,000 concurrent users. My work focused on microservices running in a multi-AZ VPC, with Prometheus, Grafana, and Loki for observability, and performance optimizations that cut P95 latency by half. I also worked on implementing full-stack features using Spring Boot and deployed the services using Docker and Kubernetes.
 
 ---
 
