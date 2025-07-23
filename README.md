@@ -17,10 +17,6 @@
   <a href="mailto:arnavpsusa@gmail.com">
     <img src="https://img.shields.io/badge/Email-Say%20hi!-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <!-- GitHub follow -->
-  <a href="https://github.com/Arnav-Purushotam">
-    <img src="https://img.shields.io/github/followers/Arnav-Purushotam?label=Follow&style=for-the-badge">
-  </a>
 </p>
 
 ---
