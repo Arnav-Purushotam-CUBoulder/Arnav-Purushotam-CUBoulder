@@ -75,17 +75,11 @@ I’ve shipped Kafka-powered wildlife pipelines, AWS-scale SaaS back-ends, and K
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api
-      ?username=Arnav-Purushotam
-      &show_icons=true
-      &hide=stars,issues,prs
-      &custom_title=Commits+%26+Contributions
-      &count_private=true
-      &include_all_commits=true
-      &theme=dracula"
+    src="https://github-readme-stats.vercel.app/api?username=Arnav-Purushotam&show_icons=true&hide=stars,issues,prs&custom_title=Commits+%26+Contributions&count_private=true&include_all_commits=true&theme=dracula"
     alt="Custom GitHub stats"
   />
 </p>
+
 
 
 ---
