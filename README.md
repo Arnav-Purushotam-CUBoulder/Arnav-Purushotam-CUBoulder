@@ -82,27 +82,19 @@ Engineered a cloud-native, end-to-end shift-scheduling platform for high-traffic
 Automated scheduling workflows via AWS Lambda, SQS, SES, and CloudWatch event rules, delivering real-time notifications and error-free shift allocations.
 
 <p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-web-services.svg"               height="70" alt="AWS"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/aws-lambda-2.svg"                      height="70" alt="Lambda"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/aws-ec2.svg"                           height="70" alt="EC2"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-dynamodb.svg"                   height="70" alt="DynamoDB"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-rds.svg"                        height="70" alt="RDS"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-s3-simple-storage-service.svg"  height="70" alt="S3"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-sqs.svg"                        height="70" alt="SQS"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-ses.svg"                        height="70" alt="SES"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/amazon-cloudwatch.svg"                 height="70" alt="CloudWatch"/>
-  &nbsp;&nbsp;
+  <!-- core AWS services -->
+  <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg"            height="70" alt="AWS"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_awslambda/amazon_awslambda-icon.svg" height="70" alt="Lambda"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_ec2/amazon_ec2-icon.svg"            height="70" alt="EC2"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_s3/amazon_s3-icon.svg"              height="70" alt="S3"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_rds/amazon_rds-icon.svg"            height="70" alt="RDS"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_dynamodb/amazon_dynamodb-icon.svg"  height="70" alt="DynamoDB"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_sqs/amazon_sqs-icon.svg"            height="70" alt="SQS"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_ses/amazon_ses-icon.svg"            height="70" alt="SES"/>
+  <img src="https://www.vectorlogo.zone/logos/amazon_cloudwatch/amazon_cloudwatch-icon.svg" height="70" alt="CloudWatch"/>
+  <!-- app / workflow -->
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg"          height="70" alt="Flask"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/apache/airflow/main/docs/apache-airflow/img/airflow_logo.png" height="70" alt="Airflow"/>
+  <img src="https://raw.githubusercontent.com/apache/airflow/master/docs/apache-airflow/img/airflow_logo.png" height="70" alt="Airflow"/>
 </p>
 
 **Architecture:**  
@@ -119,35 +111,18 @@ Enabled event-driven ordering with Kafka and Schema Registry, resilience with Re
 Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zipkin; containerized via Docker Compose and later migrated to Kubernetes (Kind), with CI using Testcontainers.
 
 <p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/spring-3.svg"                          height="70" alt="Spring Boot"/>
-  &nbsp;&nbsp;
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"                height="70" alt="Spring Boot"/>
   <img src="https://angular.io/assets/images/logos/angular/angular.svg"                  height="70" alt="Angular"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"                       height="70" alt="Tailwind CSS"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/apache-kafka.svg"                      height="70" alt="Kafka"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/resilience4j.svg"                      height="70" alt="Resilience4j"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/micrometer-metrics/micrometer/master/docs/images/micrometer-logo.svg" height="70" alt="Micrometer"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/keycloak.svg"                          height="70" alt="Keycloak"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/docker.svg"                            height="70" alt="Docker"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/kubernetes.svg"                        height="70" alt="K8s"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/prometheus.svg"                        height="70" alt="Prometheus"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/grafana.svg"                           height="70" alt="Grafana"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/loki.svg"                              height="70" alt="Loki"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/tempo.svg"                             height="70" alt="Tempo"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/zipkin.svg"                            height="70" alt="Zipkin"/>
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/testcontainers/testcontainers-java/main/docs/logo/testcontainers_logo.svg" height="70" alt="Testcontainers"/>
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"          height="70" alt="Tailwind CSS"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg"        height="70" alt="Kafka"/>
+  <img src="https://www.vectorlogo.zone/logos/keycloak/keycloak-icon.svg"                height="70" alt="Keycloak"/>
+  <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg"                    height="70" alt="Docker"/>
+  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"            height="70" alt="Kubernetes"/>
+  <img src="https://www.vectorlogo.zone/logos/prometheusio/prometheusio-icon.svg"        height="70" alt="Prometheus"/>
+  <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg"                  height="70" alt="Grafana"/>
+  <img src="https://www.vectorlogo.zone/logos/zipkin/zipkin-icon.svg"                    height="70" alt="Zipkin"/>
+  <!-- Resilience4j, Micrometer, Loki, Tempo & Testcontainers don’t have stable public SVGs;
+       consider adding local copies in /assets if you need them rendered at this size. -->
 </p>
 
 
@@ -164,25 +139,16 @@ Containerized and orchestrated on GKE using Helm charts, with a custom CI/CD pip
 Achieved 99.9% uptime, 3× improved scalability, and 60% faster deployments.
 
 <p align="center">
-  <img src="https://nestjs.com/img/logo-small.svg"                                       height="70" alt="NestJS"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/docker.svg"                            height="70" alt="Docker"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud.svg"                      height="70" alt="Google Cloud"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/kubernetes.svg"                        height="70" alt="GKE"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/helm.svg"                              height="70" alt="Helm"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/stripe.svg"                            height="70" alt="Stripe"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/github-actions.svg"                    height="70" alt="GitHub Actions"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-build.svg"                height="70" alt="Cloud Build"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-deploy.svg"               height="70" alt="Cloud Deploy"/>
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-artifact-registry.svg"    height="70" alt="Artifact Registry"/>
+  <img src="https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg"                    height="70" alt="NestJS"/>
+  <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg"                    height="70" alt="Docker"/>
+  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"        height="70" alt="Google Cloud"/>
+  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg"            height="70" alt="GKE"/>
+  <img src="https://www.vectorlogo.zone/logos/helmsh/helmsh-icon.svg"                    height="70" alt="Helm"/>
+  <img src="https://www.vectorlogo.zone/logos/stripe/stripe-icon.svg"                    height="70" alt="Stripe"/>
+  <img src="https://www.vectorlogo.zone/logos/githubactions/githubactions-icon.svg"      height="70" alt="GitHub Actions"/>
+  <img src="https://www.vectorlogo.zone/logos/googlecloudbuild/googlecloudbuild-icon.svg" height="70" alt="Cloud Build"/>
+  <img src="https://www.vectorlogo.zone/logos/googleclouddeploy/googleclouddeploy-icon.svg" height="70" alt="Cloud Deploy"/>
+  <img src="https://www.vectorlogo.zone/logos/googleartifacts/googleartifacts-icon.svg"  height="70" alt="Artifact Registry"/>
 </p>
 
 
