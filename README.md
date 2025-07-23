@@ -150,10 +150,5 @@ Achieved 99.9% uptime, 3× improved scalability, and 60% faster deployments.
 Open to collaborations on developing web software (full stack), data engineering, or dev-tooling. Ping me on LinkedIn or raise an issue!
 
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/Arnav-Purushotam"
-       alt="Arnav's GitHub contributions chart" width="100%" />
-</p>
-
 
 
