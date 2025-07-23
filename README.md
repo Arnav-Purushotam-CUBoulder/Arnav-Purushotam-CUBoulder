@@ -28,7 +28,7 @@ Before grad school, I completed my undergrad in Computer Science at BMS College 
 
 ---
 
-## 🛠 Tech Toolbox (logos for **everything**)
+## 🛠 Tech Toolbox
 
 | **Languages** | **Frameworks & Data** | **Cloud & DevOps** |
 |---------------|-----------------------|--------------------|
@@ -82,17 +82,27 @@ Engineered a cloud-native, end-to-end shift-scheduling platform for high-traffic
 Automated scheduling workflows via AWS Lambda, SQS, SES, and CloudWatch event rules, delivering real-time notifications and error-free shift allocations.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amazonaws.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-web-services.svg"               height="70" alt="AWS"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/aws-lambda-2.svg"                      height="70" alt="Lambda"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/aws-ec2.svg"                           height="70" alt="EC2"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/AWS_Simple_Icons_Database_AmazonRDS.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-dynamodb.svg"                   height="70" alt="DynamoDB"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_DynamoDB_logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-rds.svg"                        height="70" alt="RDS"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Amazon_Simple_Notification_Service_%28SNS%29_Logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-s3-simple-storage-service.svg"  height="70" alt="S3"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-sqs.svg"                        height="70" alt="SQS"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-ses.svg"                        height="70" alt="SES"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/amazon-cloudwatch.svg"                 height="70" alt="CloudWatch"/>
+  &nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg"          height="70" alt="Flask"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/apache/airflow/main/docs/apache-airflow/img/airflow_logo.png" height="70" alt="Airflow"/>
 </p>
 
 **Architecture:**  
@@ -109,22 +119,37 @@ Enabled event-driven ordering with Kafka and Schema Registry, resilience with Re
 Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zipkin; containerized via Docker Compose and later migrated to Kubernetes (Kind), with CI using Testcontainers.
 
 <p align="center">
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/spring-3.svg"                          height="70" alt="Spring Boot"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" height="70" />
+  <img src="https://angular.io/assets/images/logos/angular/angular.svg"                  height="70" alt="Angular"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Tailwind_CSS_Logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"                       height="70" alt="Tailwind CSS"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Apache_kafka_wordtype.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/apache-kafka.svg"                      height="70" alt="Kafka"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Keycloak_Logo.png" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/resilience4j.svg"                      height="70" alt="Resilience4j"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" height="70" />
+  <img src="https://raw.githubusercontent.com/micrometer-metrics/micrometer/master/docs/images/micrometer-logo.svg" height="70" alt="Micrometer"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/grafana/grafana/master/public/img/grafana_icon.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/keycloak.svg"                          height="70" alt="Keycloak"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Prometheus_software_logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/docker.svg"                            height="70" alt="Docker"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/kubernetes.svg"                        height="70" alt="K8s"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/prometheus.svg"                        height="70" alt="Prometheus"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/grafana.svg"                           height="70" alt="Grafana"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/loki.svg"                              height="70" alt="Loki"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/tempo.svg"                             height="70" alt="Tempo"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/zipkin.svg"                            height="70" alt="Zipkin"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/testcontainers/testcontainers-java/main/docs/logo/testcontainers_logo.svg" height="70" alt="Testcontainers"/>
 </p>
+
 
 **Architecture:**  
 ![E-Commerce Architecture](https://github.com/Arnav-Purushotam-CUBoulder/distributed-student-ecommerce-platform/blob/master/img.png)
@@ -139,17 +164,25 @@ Containerized and orchestrated on GKE using Helm charts, with a custom CI/CD pip
 Achieved 99.9% uptime, 3× improved scalability, and 60% faster deployments.
 
 <p align="center">
-  <img src="https://nestjs.com/img/logo-small.svg" height="70" />
+  <img src="https://nestjs.com/img/logo-small.svg"                                       height="70" alt="NestJS"/>
   &nbsp;&nbsp;
-  <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/docker.svg"                            height="70" alt="Docker"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud.svg"                      height="70" alt="Google Cloud"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Stripe_Logo%2C_revised_2016.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/kubernetes.svg"                        height="70" alt="GKE"/>
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Helm_icon_logo.svg" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/helm.svg"                              height="70" alt="Helm"/>
   &nbsp;&nbsp;
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="70" />
+  <img src="https://cdn.worldvectorlogo.com/logos/stripe.svg"                            height="70" alt="Stripe"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/github-actions.svg"                    height="70" alt="GitHub Actions"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-build.svg"                height="70" alt="Cloud Build"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-deploy.svg"               height="70" alt="Cloud Deploy"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/google-cloud-artifact-registry.svg"    height="70" alt="Artifact Registry"/>
 </p>
 
 
