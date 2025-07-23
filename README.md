@@ -1,5 +1,10 @@
 <!-- README.md — place in repo named Arnav-Purushotam -->
 
+<!-- Profile Picture -->
+<p align="center">
+  <img src="./profile.jpg" alt="Profile Picture" width="150" style="border-radius:50%;" />
+</p>
+
 
 <h1 align="center">Hey, I'm Arnav Purushotam&nbsp;👋</h1>
 
