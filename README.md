@@ -1,8 +1,5 @@
 <!-- README.md — place in repo named Arnav-Purushotam -->
 
-<p align="center">
-  <img src="assets/banner.png" alt="Arnav Purushotam banner" width="100%"/>
-</p>
 
 <h1 align="center">Hey, I'm Arnav Purushotam&nbsp;👋</h1>
 
@@ -85,8 +82,6 @@ I’ve shipped Kafka-powered wildlife pipelines, AWS-scale SaaS back-ends, and K
 ---
 
 ## 🤝 Connect
-Open to collaborations on distributed systems, data engineering, or dev-tooling. Ping me on LinkedIn or raise an issue!
+Open to collaborations on developing web software (full stack), data engineering, or dev-tooling. Ping me on LinkedIn or raise an issue!
 
-<p align="center">
-  <img src="assets/footer.png" alt="footer" width="60%">
-</p>
+
