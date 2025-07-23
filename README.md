@@ -68,11 +68,7 @@ I’ve shipped Kafka-powered wildlife pipelines, AWS-scale SaaS back-ends, and K
 
 ---
 
-## 📊 GitHub Contributions
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/Arnav-Purushotam" alt="GitHub Contribution Graph" />
-</p>
 
 
 
