@@ -21,9 +21,9 @@
 
 ---
 
-## 🧮 LeetCode Stats  
+## 🧮 LeetCode Stats
+![LeetCode percentile](https://img.shields.io/badge/Top%2010%25%20on%20LeetCode-89.8%25-success?style=for-the-badge&logo=leetcode&logoColor=yellow)
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/arnavp818?theme=light&font=Roboto&ext=contest)](https://leetcode.com/arnavp818)
 
 
 
