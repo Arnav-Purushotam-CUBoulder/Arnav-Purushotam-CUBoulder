@@ -21,8 +21,24 @@
 
 ---
 
-## 🧮 LeetCode Stats
-![LeetCode percentile](https://img.shields.io/badge/Top%2010%25%20on%20LeetCode-89.8%25-success?style=for-the-badge&logo=leetcode&logoColor=yellow)
+## 🧮 LeetCode Progress
+
+<p align="center">
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/Solved-163-brightgreen?style=for-the-badge&logo=leetcode&logoColor=yellow" />
+  <img src="https://img.shields.io/badge/Easy-36-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Medium-119-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hard-8-critical?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Top%2010%25-89.8%25-4c1?style=for-the-badge&logo=leetcode&logoColor=yellow" />
+</p>
+
+<p align="center">
+  <!-- Live-updating card; contest stats hidden -->
+  <a href="https://leetcode.com/arnavp818/">
+    <img src="https://leetcard.jacoblin.cool/arnavp818?theme=light&font=Roboto&ext=heatmap&hide=contest" alt="LeetCode Stats" />
+  </a>
+</p>
+
 
 
 
