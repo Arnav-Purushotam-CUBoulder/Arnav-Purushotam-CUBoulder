@@ -19,8 +19,12 @@
   </a>
 </p>
 
+---
+
 ## 🧮 LeetCode Stats  
-[![LeetCode Stats](https://leetcard.jacoblin.cool/arnavpsusa?theme=light,dark)](https://leetcode.com/arnavp818)
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/arnavp818?theme=light&font=Roboto&ext=contest)](https://leetcode.com/arnavp818)
+
 
 
 ---
