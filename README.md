@@ -19,6 +19,10 @@
   </a>
 </p>
 
+## 🧮 LeetCode Stats  
+[![LeetCode Stats](https://leetcard.jacoblin.cool/arnavpsusa?theme=light,dark)](https://leetcode.com/arnavp818)
+
+
 ---
 
 ## 🚀 Snapshot
