@@ -101,43 +101,6 @@ Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zi
 **Architecture:**  
 ![E-Commerce Architecture](https://github.com/Arnav-Purushotam-CUBoulder/distributed-student-ecommerce-platform/blob/master/img.png)
 
----
-
-### 🏨 Personal Hotel Reservation System  
-[github.com/Arnav-Purushotam-CUBoulder/new_project](https://github.com/Arnav-Purushotam-CUBoulder/new_project)
-
-Designed and deployed a NestJS-based microservices application on Google Cloud, featuring Auth, Reservations, Payments (Stripe), and Notifications services.  
-Containerized and orchestrated on GKE using Helm charts, with a custom CI/CD pipeline built using GitHub Actions, Google Cloud Build, Cloud Deploy, Artifact Registry, and Cloud IAM.  
-Achieved 99.9% uptime, 3× improved scalability, and 60% faster deployments.
-
-
-
-**Architecture:**
-
-```text
- ┌───────────────────────────── Google Cloud Load Balancer ─────────────────────────────┐
- │                  Multi‑region HTTPS (Cloud Armor + Managed Cert)
- |                                   HPA 2‑10 pods for each service                     │
- │                                                                                      │
- │        ┌────────────┐        ┌───────────────┐          ┌───────────────┐            │
- │        │  Gateway    │ gRPC  │  Reservations  │ ────►    │   Payments    │            │
- │  REST  │  (Nest)     │──────►│   (Nest)       │   │TCP   │    (Nest)     │            │
- │◄───────┤       └───────────────┘   │       └───────────────┘            │
- │        └────▲───────┘           ▲       ▲        │                │                  │
- │             │REST JWT           │       │event   │                │event             │
- │             │                   │       │         ▼                ▼                 │
- │        ┌────┴──────┐            │   ┌───────────────┐      ┌───────────────┐         │
- │        │   Auth    │   TCP pub  │   │Notifications  │      │  RabbitMQ      │         │
- │        │  (Nest)   │◄───────────┘   │   (Nest)      │◄────►│   1 replica    │         │
- │        └───────────┘                └───────────────┘      └───────────────┘         │
- └───────────────────────────────────────────────────────────────────────────────────────┘
-                ▲                       ▲                              
-         Managed SSL                Cloud NAT                  
-                │                       │                              
-         Cloud DNS                 Secret Manager                        
-```
-
-
 
 
 
