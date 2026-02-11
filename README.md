@@ -104,6 +104,68 @@ Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zi
 
 ---
 
+### 📄 Resume Automator  
+**February 2026**  
+[github.com/Arnav-Purushotam-CUBoulder/resume-automator](https://github.com/Arnav-Purushotam-CUBoulder/resume-automator)
+
+- Built a Git-backed macOS desktop app (Electron + React + Express) for managing reusable LaTeX resume components and composing multiple resume variants.
+- Implemented resume-specific override layers and history snapshots so edits can diverge safely while preserving full version traceability.
+- Added reliable PDF generation with compiler fallback (`latexmk` -> `pdflatex` -> Docker) and automatic sync to user-selected local/iCloud folders.
+
+**Architecture:**  
+```mermaid
+graph LR
+  U["User"] --> E["Electron Desktop App"]
+  E --> FE["React + Vite + Monaco UI"]
+  FE --> API["Express + TypeScript API"]
+  API --> DATA["Resume Catalog + Variant Store"]
+  API --> GIT["Git Version History"]
+  API --> TEX["LaTeX Generator"]
+  TEX --> COMP["latexmk / pdflatex / Docker"]
+  COMP --> PDF["Compiled PDFs"]
+  PDF --> SYNC["User PDF Sync Folder (iCloud-ready)"]
+```
+
+---
+
+### 🧬 BioF Research OS  
+**February 2026**  
+[github.com/Arnav-Purushotam-CUBoulder/llm-project-biof](https://github.com/Arnav-Purushotam-CUBoulder/llm-project-biof)
+
+- Built a biomedical AI research platform with FastAPI + Next.js that turns natural-language questions into citation-backed answers and streamed responses.
+- Combined hybrid retrieval (SQL + vector) and graph reasoning over PostgreSQL/pgvector, Qdrant, and Neo4j with tool-routed agent orchestration.
+- Added executive brief generation and benchmark scorecards (recall, faithfulness, citation density, latency) with CI-backed quality gates.
+
+**Architecture:**  
+![BioF Architecture](https://raw.githubusercontent.com/Arnav-Purushotam-CUBoulder/llm-project-biof/main/docs/assets/architecture-overview.png)
+
+---
+
+### 🖼️ Snaplet  
+**September 2025 – October 2025**  
+[github.com/Arnav-Purushotam-CUBoulder/Snaplet](https://github.com/Arnav-Purushotam-CUBoulder/Snaplet)
+
+- Developed a containerized random-image web app with Next.js frontend, Spring Boot backend, SQLite metadata store, and Nginx reverse proxy.
+- Implemented startup ingestion that moves files from `data/new` to `data/total` and indexes paths into SQLite for deterministic random selection.
+- Added frontend prefetch queueing so image transitions feel instant while the next batch loads in the background.
+
+**Architecture:**  
+```mermaid
+graph LR
+  U["Browser User"] --> N["Nginx (port 8080)"]
+  N --> FE["Next.js Frontend"]
+  N --> API["Spring Boot API (/api/*)"]
+  API --> DB["SQLite images table"]
+  API --> TOT["data/total (canonical images)"]
+  API --> NEW["data/new (incoming images)"]
+  NEW --> TOT
+  DC["Docker Compose"] --> N
+  DC --> API
+  DC --> FE
+```
+
+---
+
 ## 🤝 Connect
 Open to collaborations on developing web software (full stack) or dev-tooling. Ping me on LinkedIn or raise an issue!
 
