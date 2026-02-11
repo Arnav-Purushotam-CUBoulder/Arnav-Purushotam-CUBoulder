@@ -108,9 +108,11 @@ Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zi
 **February 2026**  
 [github.com/Arnav-Purushotam-CUBoulder/resume-automator](https://github.com/Arnav-Purushotam-CUBoulder/resume-automator)
 
-- Built a Git-backed macOS desktop app (Electron + React + Express) for managing reusable LaTeX resume components and composing multiple resume variants.
-- Implemented resume-specific override layers and history snapshots so edits can diverge safely while preserving full version traceability.
-- Added reliable PDF generation with compiler fallback (`latexmk` -> `pdflatex` -> Docker) and automatic sync to user-selected local/iCloud folders.
+- Architected a cross-process desktop app where an Electron shell hosts a React + Vite + Monaco frontend and delegates compile/version workflows to an Express + TypeScript backend.
+- Designed a normalized resume domain model (global components, ordered variant composition, and block/point-level overrides) so variant-specific edits can detach cleanly from future global updates.
+- Implemented a Git-backed persistence layer that snapshots edits, preserves commit-level traceability, and supports history browsing with historical PDF re-render from prior revisions.
+- Built a resilient LaTeX pipeline with ordered compiler failover (`latexmk` -> `pdflatex` -> Docker `blang/latex:ctanfull`) and actionable error reporting when local toolchains are unavailable.
+- Added iCloud-ready PDF sync with initial backfill and compile-time delta replacement so only changed resume outputs are updated in the target export folder.
 
 **Architecture:**  
 ```mermaid
@@ -132,9 +134,12 @@ graph LR
 **February 2026**  
 [github.com/Arnav-Purushotam-CUBoulder/llm-project-biof](https://github.com/Arnav-Purushotam-CUBoulder/llm-project-biof)
 
-- Built a biomedical AI research platform with FastAPI + Next.js that turns natural-language questions into citation-backed answers and streamed responses.
-- Combined hybrid retrieval (SQL + vector) and graph reasoning over PostgreSQL/pgvector, Qdrant, and Neo4j with tool-routed agent orchestration.
-- Added executive brief generation and benchmark scorecards (recall, faithfulness, citation density, latency) with CI-backed quality gates.
+- Engineered a production-style FastAPI + Next.js research platform with SSE streaming chat (`/api/v1/chat/stream`) that returns incremental responses followed by citation/confidence payloads.
+- Implemented hybrid retrieval across SQL chunk storage and vector search (PostgreSQL + `pgvector`, Qdrant sync), plus Neo4j graph evidence querying under a tool-routed orchestrator.
+- Added explicit agent routing modes (`auto`, `retrieval`, `graph`, `analytics`, `blended`) to control retrieval strategy and improve answer quality on mixed evidence tasks.
+- Built asynchronous ingestion and processing with Celery + Redis workers for file/web source pipelines, with session/query logging for reproducibility and auditability.
+- Delivered executive brief generation and benchmark APIs scoring recall, pass rate, faithfulness, citation density, and latency, then surfaced a composite grade in the frontend scoreboard.
+- Productionized the stack with typed services and CI quality gates (`ruff`, `mypy`, `pytest`, frontend lint/test/build) plus GitHub Pages deployment for public demo visibility.
 
 **Architecture:**  
 ![BioF Architecture](https://raw.githubusercontent.com/Arnav-Purushotam-CUBoulder/llm-project-biof/main/docs/assets/architecture-overview.png)
@@ -145,9 +150,11 @@ graph LR
 **September 2025 – October 2025**  
 [github.com/Arnav-Purushotam-CUBoulder/Snaplet](https://github.com/Arnav-Purushotam-CUBoulder/Snaplet)
 
-- Developed a containerized random-image web app with Next.js frontend, Spring Boot backend, SQLite metadata store, and Nginx reverse proxy.
-- Implemented startup ingestion that moves files from `data/new` to `data/total` and indexes paths into SQLite for deterministic random selection.
-- Added frontend prefetch queueing so image transitions feel instant while the next batch loads in the background.
+- Built a containerized three-tier stack (Next.js frontend, Spring Boot API, Nginx reverse proxy) where Nginx multiplexes `/` to UI and `/api/*` to backend on one public endpoint.
+- Implemented idempotent startup indexing in the backend: ensure quoted SQLite schema for `images`, seed from `data/total` on first run, and ingest `data/new` into canonical storage.
+- Added collision-safe file migration logic (suffix-based rename) and sequential index assignment so newly dropped assets are incorporated without corrupting existing rows.
+- Implemented random-image serving by sampling over `MAX(\"index\")`, resolving `image_path`, and streaming binary payloads from `/api/random-image`, with health/rebuild endpoints for operations.
+- Optimized UX latency with a frontend prefetch queue (10 image blobs) so clicks render near-instantly while background requests continuously replenish buffered content.
 
 **Architecture:**  
 ```mermaid
@@ -168,4 +175,3 @@ graph LR
 
 ## 🤝 Connect
 Open to collaborations on developing web software (full stack) or dev-tooling. Ping me on LinkedIn or raise an issue!
-
