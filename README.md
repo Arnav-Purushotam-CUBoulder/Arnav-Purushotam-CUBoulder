@@ -69,6 +69,17 @@
 
 ---
 
+### 🐧 linuc — Lightweight Linux Container Runtime in C++  
+**December 2025**  
+[github.com/Arnav-Purushotam-CUBoulder/C-Lightweight-Linux-Container-Runtime](https://github.com/Arnav-Purushotam-CUBoulder/C-Lightweight-Linux-Container-Runtime)
+
+- Built a lightweight Linux container runtime in C++ from scratch using `clone()`-based namespace isolation (PID, mount, UTS, IPC, network, and user namespaces) instead of Docker-level abstractions.
+- Implemented container setup and hardening with UID/GID user-namespace mappings, `pivot_root`, `/proc` mounting, capability dropping via `libcap`, and `PR_SET_NO_NEW_PRIVS` to minimize post-launch privilege.
+- Added cgroup v2 resource controls and supervision features including memory limits, CPU quotas, `pids.max`, stats collection, signal forwarding, and configurable restart policies for long-running processes.
+- Built out developer-facing tooling with structured NDJSON logging, a 9-group integration test suite, startup/memory/CPU-isolation microbenchmarks, and a Lima-based macOS workflow for reproducible Linux testing.
+
+---
+
 ### ⚡ vLLM + NVIDIA Nsight LLM Profiling  
 **March 2026**  
 [github.com/Arnav-Purushotam-CUBoulder/vLLM---Nvidia-Nsight-LLM-Profiling](https://github.com/Arnav-Purushotam-CUBoulder/vLLM---Nvidia-Nsight-LLM-Profiling)
@@ -136,17 +147,6 @@ graph LR
   DC --> API
   DC --> FE
 ```
-
----
-
-### 🐧 linuc — Lightweight Linux Container Runtime in C++  
-**December 2025**  
-[github.com/Arnav-Purushotam-CUBoulder/C-Lightweight-Linux-Container-Runtime](https://github.com/Arnav-Purushotam-CUBoulder/C-Lightweight-Linux-Container-Runtime)
-
-- Built a lightweight Linux container runtime in C++ from scratch using `clone()`-based namespace isolation (PID, mount, UTS, IPC, network, and user namespaces) instead of Docker-level abstractions.
-- Implemented container setup and hardening with UID/GID user-namespace mappings, `pivot_root`, `/proc` mounting, capability dropping via `libcap`, and `PR_SET_NO_NEW_PRIVS` to minimize post-launch privilege.
-- Added cgroup v2 resource controls and supervision features including memory limits, CPU quotas, `pids.max`, stats collection, signal forwarding, and configurable restart policies for long-running processes.
-- Built out developer-facing tooling with structured NDJSON logging, a 9-group integration test suite, startup/memory/CPU-isolation microbenchmarks, and a Lima-based macOS workflow for reproducible Linux testing.
 
 ---
 
