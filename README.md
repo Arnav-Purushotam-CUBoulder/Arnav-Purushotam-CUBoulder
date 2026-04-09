@@ -57,6 +57,18 @@
 
 ---
 
+### ⚡ vLLM + NVIDIA Nsight LLM Profiling  
+**March 2026**  
+[github.com/Arnav-Purushotam-CUBoulder/vLLM---Nvidia-Nsight-LLM-Profiling](https://github.com/Arnav-Purushotam-CUBoulder/vLLM---Nvidia-Nsight-LLM-Profiling)
+
+- Built a GPU inference benchmarking and profiling workflow for **Phi-2** served with **vLLM 0.19.0** on an **AWS EC2 g6.xlarge** instance backed by an **NVIDIA L4 (24GB)** GPU.
+- Benchmarked short and long prompts at concurrency `1`, `4`, and `8`, showing throughput scaling from **45.9 tok/s** to **342.5 tok/s** with only a modest latency increase from **2.18s** to **2.33s**.
+- Captured and analyzed **NVIDIA Nsight Systems** traces to break down kernel-level behavior, finding GEMM-heavy execution (~45% of GPU time), efficient Flash Attention usage, and decode-stage `gemvx` kernels dominating token-by-token generation.
+- Identified the system as decisively **GPU-bound** by measuring CPU-side wait behavior (`cudaEventSynchronize` / `cudaDeviceSynchronize`) and showing that output-token transfers back to CPU were effectively negligible.
+- Automated reproducible setup, serving, benchmarking, profiling, and EC2 lifecycle management with Docker Compose and shell scripts so the full experiment can be rerun end to end on fresh infrastructure.
+
+---
+
 ### 🗄️ Modular C++ Database Engine  
 **August 2025 – September 2025**  
 [github.com/Arnav-Purushotam-CUBoulder/cpp-db-engine](https://github.com/Arnav-Purushotam-CUBoulder/cpp-db-engine)
