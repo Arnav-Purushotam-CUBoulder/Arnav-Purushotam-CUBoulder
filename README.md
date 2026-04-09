@@ -97,54 +97,8 @@ Deployed full-stack observability using Prometheus, Grafana, Loki, Tempo, and Zi
 ![E-Commerce Architecture](https://github.com/Arnav-Purushotam-CUBoulder/distributed-student-ecommerce-platform/blob/master/img.png)
 
 
-
-
-
-
-
 ---
 
-### 📄 Resume Automator  
-**February 2026**  
-[github.com/Arnav-Purushotam-CUBoulder/resume-automator](https://github.com/Arnav-Purushotam-CUBoulder/resume-automator)
-
-- Architected a cross-process desktop app where an Electron shell hosts a React + Vite + Monaco frontend and delegates compile/version workflows to an Express + TypeScript backend.
-- Designed a normalized resume domain model (global components, ordered variant composition, and block/point-level overrides) so variant-specific edits can detach cleanly from future global updates.
-- Implemented a Git-backed persistence layer that snapshots edits, preserves commit-level traceability, and supports history browsing with historical PDF re-render from prior revisions.
-- Built a resilient LaTeX pipeline with ordered compiler failover (`latexmk` -> `pdflatex` -> Docker `blang/latex:ctanfull`) and actionable error reporting when local toolchains are unavailable.
-- Added iCloud-ready PDF sync with initial backfill and compile-time delta replacement so only changed resume outputs are updated in the target export folder.
-
-**Architecture:**  
-```mermaid
-graph LR
-  U["User"] --> E["Electron Desktop App"]
-  E --> FE["React + Vite + Monaco UI"]
-  FE --> API["Express + TypeScript API"]
-  API --> DATA["Resume Catalog + Variant Store"]
-  API --> GIT["Git Version History"]
-  API --> TEX["LaTeX Generator"]
-  TEX --> COMP["latexmk / pdflatex / Docker"]
-  COMP --> PDF["Compiled PDFs"]
-  PDF --> SYNC["User PDF Sync Folder (iCloud-ready)"]
-```
-
----
-
-### 🧬 BioF Research OS  
-**February 2026**  
-[github.com/Arnav-Purushotam-CUBoulder/llm-project-biof](https://github.com/Arnav-Purushotam-CUBoulder/llm-project-biof)
-
-- Engineered a production-style FastAPI + Next.js research platform with SSE streaming chat (`/api/v1/chat/stream`) that returns incremental responses followed by citation/confidence payloads.
-- Implemented hybrid retrieval across SQL chunk storage and vector search (PostgreSQL + `pgvector`, Qdrant sync), plus Neo4j graph evidence querying under a tool-routed orchestrator.
-- Added explicit agent routing modes (`auto`, `retrieval`, `graph`, `analytics`, `blended`) to control retrieval strategy and improve answer quality on mixed evidence tasks.
-- Built asynchronous ingestion and processing with Celery + Redis workers for file/web source pipelines, with session/query logging for reproducibility and auditability.
-- Delivered executive brief generation and benchmark APIs scoring recall, pass rate, faithfulness, citation density, and latency, then surfaced a composite grade in the frontend scoreboard.
-- Productionized the stack with typed services and CI quality gates (`ruff`, `mypy`, `pytest`, frontend lint/test/build) plus GitHub Pages deployment for public demo visibility.
-
-**Architecture:**  
-![BioF Architecture](https://raw.githubusercontent.com/Arnav-Purushotam-CUBoulder/llm-project-biof/main/docs/assets/architecture-overview.png)
-
----
 
 ### 🖼️ Snaplet  
 **September 2025 – October 2025**  
