@@ -47,6 +47,22 @@
 
 ## 💼 Experience
 
+### Software Engineer — CU-BioFrontiers (Boulder, USA)
+**October 2024 – May 2026**
+
+- Built a large-scale Python computer-vision pipeline using TensorFlow to process **20+ TB** of field video across **200+ firefly species**; achieved state-of-the-art detection/classification, deployed via Docker optimized for NVIDIA GPUs, and exposed a FastAPI REST API for orchestration/results used by **20+ researchers** for all future studies.
+- Automated shift scheduling for **200 CU Stores employees** on AWS by ingesting Excel availability/requirements from S3 and generating assignments via a 3-stage Airflow pipeline, replacing manual scheduling and delivering schedules end to end in **~5 minutes/run** using EC2/Flask triggers, Lambda, RDS, SQS, DynamoDB, and SES.
+- Worked on the BioBit platform using Python, FastAPI, HTTP RESTful APIs, and PostgreSQL for **10+ labs** and **100+ researchers**, significantly accelerating research productivity with a scalable, distributed microservices architecture.
+- Built a backend-only multi-agent orchestration platform in Python using FastAPI, OpenAI Agents SDK, SQLite, and Google Cloud Storage to coordinate planner/researcher/executor/critic agents for long-running research workflows with persistent execution state, resumable runs, artifact storage, structured handoffs, offline fallbacks, RabbitMQ event publishing, pytest validation, and containerized deployment via Docker and Knative-style manifests for Cloud Run.
+
+### Software Developer — Maxgen Technologies (India)
+**July 2022 – July 2024**
+
+- Architected a customer-facing portal using a collaborative-filtering recommendation engine built with FastAPI for **10K+ daily sessions**, driving a **25% increase in session depth** through personalized content delivery.
+- Overhauled MongoDB aggregation pipelines and optimized SQL query execution plans; refactored complex multi-stage lookups into indexed projections to achieve **3x growth in system throughput**.
+- Orchestrated end-to-end data reconciliation for **4 relational databases** during high-stakes migrations, leveraging Python-based ETL scripts to process **2M+ records** with zero downtime.
+- Improved backend responsiveness by **25%** by implementing asynchronous query result caching and optimizing database connection pooling within a FastAPI environment to handle high-concurrency traffic.
+
 ### Open Source Contributor — curl / libcurl (C / Portability / Toolchains)
 
 - Proposed and validated a cross-compiler logging strategy that enabled `CURL_DISABLE_VERBOSE_STRINGS` to truly compile out verbose trace format strings on **MSVC/Windows** via C99-style variadic trace macros; collaborated in public review with maintainers and was **credited in the final upstream solution**. ([PR #20387](https://github.com/curl/curl/pull/20387))
